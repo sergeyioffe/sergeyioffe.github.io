@@ -4,12 +4,26 @@ body {
   line-height: 115%;
 }
 
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: darkblue;
+}
+
+
 h3, h4, footer i, footer span {
   display: none;
+}
+
+article {
+  font-size: 200%;
 }  
 
+
 ul {
-  paddin: auto 0px;
+  padding: auto 0px;
   margin: auto 0px;
 }  
 
@@ -19,6 +33,14 @@ li {
   list-style: none;
   display: inline-block;
 }
+
+
+main {
+  padding: 10vh 10% 0;
+}  
+
+
+
 
 footer {
   display: none
