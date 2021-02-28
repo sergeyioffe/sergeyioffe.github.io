@@ -1,6 +1,9 @@
 body {
+  padding: 0;
+  margin: 0;
   font-family: sans-serif;
   font-size: large;
+  background: beige;
 }
 
 a {
@@ -12,6 +15,14 @@ a:hover {
 }
 
 
+header {
+  display: none;
+}
+
+.no-display {
+  display: none;
+}
+
 h3, footer i, footer span {
   display: none;
 }
@@ -22,14 +33,26 @@ article {
 }  
 
 
+#blog {
+    padding: 10vh 10% 15vh;
+    background: white;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+
+#info {
+  padding: 10vh 10% 25vh;
+}
+
+
 ul {
-  padding: auto 0px;
-  margin: auto 0px;
+  padding: 0px;
+  margin:  0px;
 }  
 
 li {
   padding: 0px;
-  margin: 0px;
+  margin: 0px 1em;
   list-style: none;
   display: inline-block;
 }
@@ -40,13 +63,44 @@ header {
 
 
 main {
-  padding: 10vh 10% 10vh;
-  float: left;
 }  
 
-
+.centered {
+  text-align: center;
+}
 
 
 footer {
   display: none
+}
+
+
+.button1 {
+  font-size: 180%;
+  color: coral;
+}
+
+#logo1 h1 {
+  font-family: sans-serif;
+   color: #555;
+  text-transform: lowercase;
+  margin: 0;
+  letter-spacing: -.035em;
+  font-size: 255%;
+}
+#logo1 h1 em {
+  display: none;
+}
+#logo1 h1 i {
+   color: #888;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+#contact-links {
+  margin: 2em auto 4em;
+}
+#contact-links a {
+  margin: auto 1em;
 }
