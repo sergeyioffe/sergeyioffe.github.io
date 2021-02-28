@@ -8,8 +8,8 @@ h3, h4, footer i, footer span {
 }  
 
 li {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   list-style: none;
   display: inline-block;
 }
