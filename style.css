@@ -1,10 +1,16 @@
 body {
   font-family: sans-serif;
   font-size: large;
+  line-height: 115%;
 }
 
 h3, h4, footer i, footer span {
   display: none;
+}  
+
+ul {
+  paddin: auto 0px;
+  margin: auto 0px;
 }  
 
 li {
@@ -15,4 +21,5 @@ li {
 }
 
 footer {
+  display: none
 }
