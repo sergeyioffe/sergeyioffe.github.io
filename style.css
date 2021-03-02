@@ -104,3 +104,28 @@ footer {
 #contact-links a {
   margin: auto 1em;
 }
+
+
+
+#soc-nets li a {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#soc-nets li a>em {
+  display: none;
+}
+#facebook {
+  background-image: url(images/f.svg);
+}
+#twitter {
+  background-image: url(images/t.svg);
+}
+#instagram {
+  background-image: url(images/i.svg);
+}
+#pinterest {
+  background-image: url(images/f.svg);
+}
