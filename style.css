@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-family: sans-serif;
   font-size: large;
-  background: beige;
 }
 
 a {
@@ -42,6 +41,8 @@ article {
 
 #info {
   padding: 10vh 10% 25vh;
+  border-top-right-radius: 60vh;
+  background: beige;
 }
 
 
@@ -108,24 +109,31 @@ footer {
 
 
 #soc-nets li a {
-  display: inline-block;
-  width: 2em;
-  height: 2em;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  float: left;
+  opacity: .6;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
+  transition: .5s;
+}
+#soc-nets li a:hover {
+  opacity: .75;
 }
 #soc-nets li a>em {
   display: none;
 }
 #facebook {
-  background-image: url(images/f.svg);
+  background-image: url(https://sergeyioffe.github.io/images/f.svg);
 }
 #twitter {
-  background-image: url(images/t.svg);
+  background-image: url(https://sergeyioffe.github.io/images/t.svg);
 }
 #instagram {
-  background-image: url(images/i.svg);
+  background-image: url(https://sergeyioffe.github.io/images/i.svg);
 }
 #pinterest {
-  background-image: url(images/f.svg);
+  background-image: url(https://sergeyioffe.github.io/images/p.svg);
 }
